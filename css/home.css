@@ -1,0 +1,67 @@
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+.resp {
+  -ms-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .resp {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+h1{
+  color: #5f008a;
+}
+article {
+  position: relative;
+}
+
+.titulo {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgba(31, 26, 26, 0.267);
+  color: white;
+}
+
+.noticia:hover{
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+.foto{
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.sobre{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 8%;
+}
+
+.text{
+  width: 45%;
+}

@@ -1,0 +1,102 @@
+@media only screen and (max-device-width: 700px) {
+  body{ 
+    width:400px; 
+  }
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #5f008a;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  height: 15%;
+}
+
+.container_nav{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+section{
+  padding-top: 10%;
+}
+
+footer{
+  background-color: #5f008a;
+  color: white;
+  padding: 30px;
+}
+
+h2{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    text-shadow: 0px 0px 10px #fff;
+    font-size: 200%;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.menu{
+  list-style:none;
+  padding-left: 10%;
+}
+
+.menu li{
+  position: relative; 
+  
+  display: flex;
+  justify-content: center;
+}
+
+.menu li a{
+  text-decoration:none;
+  color: #fff;
+  display:block;
+}
+
+.menu li ul{
+  position: fixed;
+  display:none;
+  top: 110px;
+}
+
+.opcoes_menu{
+  background-color: #5f008a;
+  position: absolute;
+  padding: 30px 70px;
+  justify-content: center;
+}
+
+.opcoes_menu:hover{
+  text-shadow:0px 0px 5px #fff;
+}
+
+.menu li:hover ul, .menu li.hover ul{
+  display:block;
+}
+
+.menu li ul li{
+  border:2px solid #fff; 
+  display:block;
+  right: 20px;
+}
