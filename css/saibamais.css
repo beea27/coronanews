@@ -1,11 +1,22 @@
 .saiba_mais{
   padding-bottom: 9%;
+  display: flex;
+  justify-content: center;
 }
 
 .container_saibaMais{
   margin-top: 2%;
+  border-radius: 2%;
+  border: 3px solid  #5f008a;
+  margin: 3% 20% 0% 20%;
+  padding: 2%;
 }
 
 .noticia{
   padding: 1%;
+}
+
+h1{
+  color: #5f008a;
+  font-size: 40px;
 }
