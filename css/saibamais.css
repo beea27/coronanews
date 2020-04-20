@@ -1,7 +1,5 @@
 .saiba_mais{
   padding-bottom: 9%;
-  display: flex;
-  justify-content: center;
 }
 
 .container_saibaMais{
@@ -19,4 +17,8 @@
 h1{
   color: #5f008a;
   font-size: 40px;
+}
+
+a{
+  color: black;
 }
